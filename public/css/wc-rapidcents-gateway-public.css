@@ -1,0 +1,21 @@
+.rc_ddd_container{ display:none; position:fixed; top:0; bottom:0; left:0; right:0; background-color:rgba(0,0,0,0.9); z-index: 999; align-content: center;
+	align-items: center;
+	justify-content: center; }
+	.rc_ddd_container.rc_dd_open{display:flex;}
+				.rc_ddd_dialog{ background-color:#fff; width: 100%;
+	height: 100%;
+	max-width: 600px;
+	max-height: 800px; display: flex;
+	flex-direction: column; }
+	.rc_ddd_dialog_actions{ display:flex; justify-content: space-between;
+		font-size: 1rem; }
+	.rc_ddd_dialog_actions .rc_ddd_dialog_title{ text-transform: uppercase;
+		padding: 10px; color:#333 }
+	.rc_ddd_dialog_actions .rc_ddd_dialog_close{ background-color:#CCC; text-transform: uppercase;
+		padding: 10px; cursor: pointer; font-weight: bold; color:#666; }
+		#rc_verify_frm{ flex-grow:1; }
+
+.wc_payment_method.payment_method_rapidcents{ position: relative; }
+.wc_payment_method.payment_method_rapidcents .rc_cards_icon{ position: absolute;
+	right: 0;
+	max-width: 200px; }

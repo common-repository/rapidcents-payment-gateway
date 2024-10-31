@@ -1,0 +1,30 @@
+.rcConnectSection {
+		padding: 10px;
+		background-color: #FFF;
+		border: 1px solid #CCC;
+		max-width: 600px;
+		border-radius: 10px;
+		-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+		box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+	}
+	.rcfieldContainer {
+		margin: 0px 0px 1rem 0px;
+	}
+	.rcfieldContainer.rcfieldInline {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	.rcfieldContainer .rcFullText {
+		width: 100% !important;
+	}
+	.rcConnectSection .rcConnectActions {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	#woocommerce_rapidcents_rc_connect_data {
+		display: none !important;
+	}
+
+.rc-notice-error{ color: red; }

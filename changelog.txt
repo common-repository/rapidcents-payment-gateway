@@ -1,0 +1,4 @@
+*** RapidCents Payment Gateway ***
+
+2024-09-06 - version 1.0.0
+* First release.
